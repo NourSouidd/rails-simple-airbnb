@@ -1,0 +1,37 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.my-card {
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 10px;
+  display: grid;
+}
+
+.img {
+  background: white;
+  height: 200px;
+}
+
+.info {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.contact {
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 16px 24px;
+}
+
+i {
+  font-size: 26px;
+  font-weight: lighter;
+}
+
+
